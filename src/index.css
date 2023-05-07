@@ -1,3 +1,6 @@
+html{
+  font-size: 10px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,9 +9,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 @font-face {
   font-family: 'My Custom fonts';
-  src: url(./font2/SpaceGrotesk-VariableFont_wght.ttf)
+  src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: normal;
   
 }
 code {

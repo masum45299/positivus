@@ -1,7 +1,19 @@
-@media (min-width: 992px){
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    flex-direction: row-reverse;
+.nav-link.active{
+    color: black!important;
+
 }
+.navbar-nav a{
+    color: black;
+    font-family: "My Custom fonts";
+    font-size: 1.6rem;
 }
+.navbar-nav a:hover{
+    color: black;
+    
+}
+.navbar-nav a:nth-child(6){
+    border: 0.2rem solid #000000;
+    border-radius: 1rem;
+    
+}
+
