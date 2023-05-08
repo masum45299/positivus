@@ -1,0 +1,33 @@
+.a-wrap{
+    margin-top: 7rem;
+    display: flex;
+    
+}
+/* responsive */
+@media screen and (max-width:576px) {
+    .a-wrap{
+       display: flex;
+       flex-direction: column;
+       flex-direction: column-reverse;
+    }
+}
+
+.a-left>h1{
+    font-size: 6rem;
+}
+.a-left>p{
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    font-size: 1.6rem;
+}
+.a-right>img{
+    width: 60rem;
+    height: 51.5rem;
+}
+.m-btn{
+    padding: 2rem 3.5rem;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    background: #191A23;
+    border-radius: 2rem;
+}

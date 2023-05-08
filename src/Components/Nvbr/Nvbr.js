@@ -11,7 +11,7 @@ const Nvbr = () => {
         <div>
             <Navbar className='NavBar' expand="lg">
             <Container>
-              <Navbar.Brand as={Link} to='/Home'><img src={logo} alt=''/></Navbar.Brand>
+              <Navbar.Brand as={Link} to='/about'><img src={logo} alt=''/></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse className='nav-right' id="basic-navbar-nav">
               <Nav>
