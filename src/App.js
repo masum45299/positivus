@@ -1,15 +1,17 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Nvbr from './Components/Nvbr/Nvbr';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter} from 'react-router-dom';
+import About from './Components/About/About';
+import Main from './Components/Main/Main';
 
 function App() {
 
   const router= createBrowserRouter([
-    {path:"/", element:<Nvbr/>},
-    {path:"about", element:<Nvbr/>},
-    {path:"services", element:<Nvbr/>}
+    {path:"/", element:<Main/>,children:[
+      {path:"/about", element:<About/>},
+      
+    ]}
   ])
 
 

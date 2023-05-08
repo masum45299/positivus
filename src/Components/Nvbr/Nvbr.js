@@ -15,8 +15,8 @@ const Nvbr = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse className='nav-right' id="basic-navbar-nav">
               <Nav>
-                  <Nav.Link as={Link} to="/about">About us</Nav.Link>
-                  <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                  <Nav.Link as={Link} to="about">About us</Nav.Link>
+                  <Nav.Link as={Link} to="about">Services</Nav.Link>
                   <Nav.Link as={Link} to="about"  >Use Cases</Nav.Link>
                   <Nav.Link as={Link} to="about" >Pricing</Nav.Link>
                   <Nav.Link as={Link} to="about"  >Blog</Nav.Link>
@@ -26,10 +26,6 @@ const Nvbr = () => {
             </Navbar.Collapse>
             </Container>
             </Navbar>
-
-
-
-
         </div> 
     );
 };
