@@ -12,7 +12,7 @@ const About = () => {
                 <div className='a-left'>
                     <h1>Navigating the digital landscape for success</h1>
                     <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-                    <button className='m-btn'>Book a consultation</button>
+                    <button className='m-btn a-btn'>Book a consultation</button>
                     </div>
                     <div className='a-right'>
                         <img src={a_img} alt=''/>

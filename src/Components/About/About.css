@@ -10,6 +10,10 @@
        flex-direction: column;
        flex-direction: column-reverse;
     }
+    .a-btn{
+        width: 100%;
+        
+    }
 }
 
 .a-left>h1{
