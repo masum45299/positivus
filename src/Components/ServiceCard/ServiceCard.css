@@ -4,14 +4,85 @@
     grid-template-columns: repeat(2,1fr);
     gap: 5rem;
 }
+@media screen and (max-width:576px) {
+    .s-card-wrap{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 .S-card{
     display: flex;
     justify-content: space-between;
-    background-color: #F3F3F3;
+   
     align-items: center;
     padding: 5rem;
     border: 2px solid #191A23;
     border-radius: 4rem;
     box-shadow: 0 .5rem .1rem  rgba(0,0,0,10);
+}
+.S-card1{
+    background-color: #F3F3F3;
+}
+.S-card2{
+    background-color: #B9FF66;
+}
+.S-card3{
+    background-color:#191A23;
+}
+.S-card4{
+    background-color: #F3F3F3;
+}
+.S-card5{
+    background-color: #B9FF66;
+}
+.S-card6{
+    background-color:#191A23;
+}
+
+.i-flex{
+    display: flex;
+    align-items: center;
+}
+.i-flex>small{
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+.s-icon{
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.icon1{
+    background-color: #191A23;
+}
+.icon2{
+    background-color: #191A23;
+}
+.icon3{
+    background-color: white;
+}
+.icon6{
+    background-color: white;
+}
+.icon1>svg{
+    color: #B9FF66;
+}
+.icon2>svg{
+    color: #B9FF66;
+}
+.icon1>svg:hover{
+    color: white;
+}
+.icon2>svg:hover{
+    color: white;
+}
+.icon3>svg:hover{
+    color: #B9FF66;
+}
+.icon6>svg:hover{
+    color: #B9FF66;
 }
