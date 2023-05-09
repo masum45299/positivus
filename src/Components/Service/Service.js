@@ -7,6 +7,7 @@ import clogo4 from '../../Img/Company logo4.png';
 import clogo5 from '../../Img/Company logo5.png';
 import clogo6 from '../../Img/Company logo 6.png';
 import './Service.css';
+import ServiceCard from '../ServiceCard/ServiceCard';
 
 const Service = () => {
     return (
@@ -28,6 +29,9 @@ const Service = () => {
                         </ul>
                     </div> 
                 </div>
+                <div className='S-content-f'><button className='m-btn s-btn'>Services</button>
+                <p style={{marginLeft:"3rem", fontSize:"1.6rem"}}>At our digital marketing agency, we offer a range of services to <br/>help businesses grow and succeed online. These services include:</p></div>
+                <ServiceCard/>
             </Container>
         </div>
     );

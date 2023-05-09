@@ -1,5 +1,6 @@
 .S-menu-wrap{
     display: flex;
+    margin-bottom: 7rem;
 }
 .S-menu-left{
     flex: 1;
@@ -23,8 +24,16 @@
     align-items: center;
     justify-content: space-around;
 }
-ul>li>img{
-    width: ;
+.S-content-f{
+    display: flex;
+    align-items: center;
+}
+.s-btn{
+    background-color: #B9FF66;
+    color:#000000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 2px solid #B9FF66 ;
 }
 
 /* responsive css */
