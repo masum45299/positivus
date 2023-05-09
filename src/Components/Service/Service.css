@@ -1,0 +1,35 @@
+.S-menu-wrap{
+    display: flex;
+}
+.S-menu-left{
+    flex: 1;
+}
+.S-menu-right{
+    flex: 1;
+}
+.S-menu-left>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.S-menu-left>ul>li{
+    list-style: none;
+}
+.S-menu-right>ul>li{
+    list-style: none;
+}
+.S-menu-right>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul>li>img{
+    width: ;
+}
+
+/* responsive css */
+@media screen and (max-width:576px) {
+    .S-menu-wrap{
+        display:block;
+    }
+}

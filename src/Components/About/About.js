@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css'
 import { Container } from 'react-bootstrap';
 import a_img from '../../Img/a_img.png'
+import Service from '../Service/Service';
 
 
 const About = () => {
@@ -19,6 +20,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+            <Service/>
         </div>
     );
 };
