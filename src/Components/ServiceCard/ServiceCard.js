@@ -7,11 +7,14 @@ import love from '../../Img/love.png';
 import sending from '../../Img/sending.png';
 import illustration2 from '../../Img/illustration2.png';
 import volumic from '../../Img/vlomuemic.png';
+import s_card from '../../Img/s-card.png'
+import { Container } from 'react-bootstrap';
 
 const ServiceCard = () => {
     return (
        <div>
-            <div className='s-card-wrap'>
+         <Container>
+         <div className='s-card-wrap'>
                     <div className='S-card S-card1'>
                         <div className='card-content'>
                             <h3 style={{backgroundColor:"#B9FF66", marginBottom:"11rem"}}>Search engine <br/> Optimization</h3>
@@ -73,7 +76,17 @@ const ServiceCard = () => {
                         <img src={volumic} alt=''/>
                     </div>
             </div>
-            <
+            <div className='s-fluid-card'>
+                <div className='s-fluid-content'>
+                    <h3>Let’s make things happen</h3>
+                    <p>Contact us today to learn more about how our digital <br/> marketing services can help your business grow and <br/> succeed online.</p>
+                    <button className='m-btn s-f-btn'>Get your free proposal</button>
+                </div>
+                <div className='s-img'>
+                    <img src={s_card} alt=''/>
+                </div>
+            </div>
+         </Container>
        </div>
     );
 };

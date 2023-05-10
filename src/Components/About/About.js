@@ -3,6 +3,8 @@ import './About.css'
 import { Container } from 'react-bootstrap';
 import a_img from '../../Img/a_img.png'
 import Service from '../Service/Service';
+import ServiceCard from '../ServiceCard/ServiceCard';
+import Case from '../Case/Case';
 
 
 const About = () => {
@@ -21,6 +23,8 @@ const About = () => {
                 </div>
             </Container>
             <Service/>
+            <ServiceCard/>
+            <Case/>
         </div>
     );
 };

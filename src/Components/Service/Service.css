@@ -41,4 +41,12 @@
     .S-menu-wrap{
         display:block;
     }
+    .S-content-f{
+        display: block;
+        text-align: center;
+    }
+    .S-content-f>button{
+        margin-bottom: 3rem;
+    }
+
 }

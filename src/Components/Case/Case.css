@@ -1,0 +1,14 @@
+.swiper {
+    background-color: #191A23;
+    padding: 5rem;
+    border-radius: 0rem;
+}
+
+.swiper-icon{
+    display: flex;
+    align-items: center;
+
+}
+.swiper-icon>svg{
+    color: #B9FF66;
+}

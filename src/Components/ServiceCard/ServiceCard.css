@@ -86,3 +86,40 @@
 .icon6>svg:hover{
     color: #B9FF66;
 }
+
+.s-fluid-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin-bottom: 7rem;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .s-fluid-card{
+        display: block;
+    }
+    .s-fluid-content{
+        text-align: center;
+    }
+    .s-img{
+        display:none;
+    }
+}
+
+
+.s-fluid-content>h3{
+    font-size: 3rem;
+    margin-bottom: 1.1rem;
+}
+.s-fluid-content>p{
+    font-size: 1.8rem;
+    margin-bottom: 2.6rem;
+}
+.s-f-btn{
+    font-size: 2rem;
+}
