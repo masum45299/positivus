@@ -1,0 +1,23 @@
+.t-box{
+    border: 2px solid #191A23;
+    box-shadow: 0 0.5rem 0.1rem rgba(0,0,0,10);
+    position: relative;
+    padding: 2rem;
+}
+.t-details>p:nth-child(1),
+.t-details>p:nth-child(2){
+    margin-bottom: 0rem;
+    margin-left: 3rem;
+    font-size: 1.6rem;
+}
+.t-content{
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+.t-box .social-i{
+    position: absolute;
+    top:15%;
+    right:2%;
+}

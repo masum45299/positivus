@@ -13,14 +13,53 @@ const Work = () => {
                 </div>
 
                 {/* Accordion part */}
-                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginBottom:"14rem"}}>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem"}}>
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header>Accordion Item #1</Accordion.Header>
+                        <Accordion.Header>01 Consultation</Accordion.Header>
                         <Accordion.Body>
                         During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
                         </Accordion.Body>
                     </Accordion.Item>
-                    
+                </Accordion>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem"}}>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>02 Research and Strategy Development</Accordion.Header>
+                        <Accordion.Body>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem"}}>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>03 Implementation</Accordion.Header>
+                        <Accordion.Body>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem"}}>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>04 Monitoring and Optimization</Accordion.Header>
+                        <Accordion.Body>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem"}}>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>05 Reporting and Communication</Accordion.Header>
+                        <Accordion.Body>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                <Accordion defaultActiveKey={['0']} alwaysOpen style={{marginTop:"2rem", marginBottom:"14rem"}}>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>06 Continual Improvement</Accordion.Header>
+                        <Accordion.Body>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                        </Accordion.Body>
+                    </Accordion.Item>
                 </Accordion>
 
             </Container>
