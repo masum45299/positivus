@@ -1,0 +1,8 @@
+.accordion{
+    border: 1px solid #191A23;
+    border-radius: 45px;
+}
+
+.accordion-item{
+    background-color: transparent;
+}

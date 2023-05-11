@@ -41,13 +41,13 @@
         display: none;
     }
     .case .swiper{
-        
+        /* overflow: visible!important; */
         width: 100%;
     }
     .swiper-slide{
-        overflow: visible!important;
         background-color: #191A23;
         border-radius: 5rem;
+        width: 50%;
     }
     .swiper-wrapper{
         column-gap: 3rem;

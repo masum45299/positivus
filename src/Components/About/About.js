@@ -5,6 +5,7 @@ import a_img from '../../Img/a_img.png'
 import Service from '../Service/Service';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import Case from '../Case/Case';
+import Work from '../Work/Work';
 
 
 const About = () => {
@@ -25,6 +26,7 @@ const About = () => {
             <Service/>
             <ServiceCard/>
             <Case/>
+            <Work/>
         </div>
     );
 };
