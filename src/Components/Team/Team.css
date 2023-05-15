@@ -10,6 +10,27 @@
     margin-left: 3rem;
     font-size: 1.6rem;
 }
+.t-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.t-btn{
+    text-align: right;
+}
+@media screen and (max-width:576px) {
+    .t-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+    .t-btn{
+        text-align: center;
+    }
+}
+.t-box{
+    border-radius: 2rem;
+}
 .t-content{
     display: flex;
     align-items: flex-end;
@@ -18,6 +39,11 @@
 }
 .t-box .social-i{
     position: absolute;
-    top:15%;
+    top:10%;
     right:2%;
+}
+.t-box>hr{
+    height: .2rem;
+    background-color:#000000;
+
 }

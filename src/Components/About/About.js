@@ -7,6 +7,7 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 import Case from '../Case/Case';
 import Work from '../Work/Work';
 import Team from '../Team/Team';
+import Testimonial from '../Testimonial/Testimonial';
 
 
 const About = () => {
@@ -29,6 +30,7 @@ const About = () => {
             <Case/>
             <Work/>
             <Team/>
+            <Testimonial/>
         </div>
     );
 };
